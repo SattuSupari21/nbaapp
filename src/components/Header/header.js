@@ -34,7 +34,7 @@ const Header = (props) => {
             <SideNav {...props} />
             <div className='headerOpt'>
                 {navBars()}
-                Hello
+                Hello World
                 {logo()}
             </div>
         </header>
