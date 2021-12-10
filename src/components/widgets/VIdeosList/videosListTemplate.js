@@ -10,12 +10,15 @@ const VideosListTemplate = (props) => {
             <div className='videoListItem_wrapper'>
                 <div className='left'
                     style={{
-                        background:`url(/imgaes/videos/${item.image})`
+                        background:`url(/images/videos/${item.image})`
                     }}
                 >
-                    <div></div>
+                    <div style={{
+                        background:`url("/images/play.png")`
+                    }}></div>
                 </div>
                 <div className='right'>
+                    <CardInfo teams={props.teams} team={item.team} date={item.date} />
                     <h2>{item.title}</h2>
                 </div>
             </div>
