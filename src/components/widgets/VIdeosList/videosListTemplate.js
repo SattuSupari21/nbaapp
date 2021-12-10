@@ -1,7 +1,7 @@
 import React from 'react';
-import './videolist.css'
 import { Link } from 'react-router-dom';
 
+import './videolist.css';
 import CardInfo from '../CardInfo/cardinfo';
 
 const VideosListTemplate = (props) => {
