@@ -7,7 +7,7 @@ import Header from './header';
 
 class NewsArticles extends Component{
 
-    state={
+    state = {
         article:[],
         team:[]
     }

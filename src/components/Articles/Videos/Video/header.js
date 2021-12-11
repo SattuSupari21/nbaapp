@@ -13,7 +13,7 @@ const Header = (props) => {
 
     return(
         <div>
-            teamInfo{props.teamData}
+            {teamInfo(props.teamData)}
         </div>
     )
 }
